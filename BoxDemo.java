@@ -9,9 +9,7 @@ public class BoxDemo {
         mybox2.wigth=3;
         mybox2.height=6;
         mybox2.depth=9;
-        vol= mybox1.wigth* mybox1.height* mybox1.depth;
-        System.out.println("Объем равен " + vol);
-        vol= mybox2.wigth* mybox2.height*mybox2.depth;
-        System.out.println("Объем равен " + vol);
+        mybox1.volume();
+        mybox2.volume();
     }
 }
