@@ -5,4 +5,9 @@ public class Box {
     double volume(){
         return  wigth*height*depth;
     }
+    void  setDim(double w,double h,double d){
+        wigth=w;
+        height=h;
+        depth=d;
+    }
 }
